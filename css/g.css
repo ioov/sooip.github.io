@@ -1,4 +1,4 @@
-.body{max-width:600px;margin: auto;}
+.body{max-width:900px;margin: auto;}
 .header{text-align:center;padding: 12px;background:#f2f2f2;}
 
 ul {
@@ -90,7 +90,7 @@ footer{
 footer{
 	bottom: 20px;
 	
-	max-width: 600px;
+	max-width: 900px;
 	margin: auto;
 	line-height: 25px;
 	border-top:2px solid #ddd;
