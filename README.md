@@ -1,2 +1,0 @@
-# ssvu.github.io
-Hatu
