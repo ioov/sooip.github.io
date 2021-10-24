@@ -50,6 +50,83 @@ li a:hover:not(.active) {
 
 
 
+.ll{margin-top: 170px;}
+
+
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+ li{ 	list-style:none; 
+		
+ }
+
+
+
+.kk{
+	max-width:700px;
+	text-align:center;
+    position:absolute;
+    left:0;
+    top: 170px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+
+}
+
+
+
+#aa{
+  font-size: 20px;
+  text-align:center;
+  display: table-cell;
+  vertical-align: middle;
+  float:left;
+   display:inline;
+	width:70px;
+	height:30px;
+	text-align:center;
+	margin-top: 35px;
+	line-height:30px;
+}
+
+#al{
+ 	float:left;
+   display:inline;
+	width:70px;
+	height:30px;
+	text-align:center;
+	margin-top: 30px;
+	line-height:30px;
+	margin-left:20px;
+}
+
+
+
+
+
+
 
 
 
