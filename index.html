@@ -44,6 +44,9 @@
 
 
 
+
+
+
 <p style="text-align: center;">Wishing you peace, joy and happiness through Christmas and thecoming year.</p>
 <p style="text-align: center;">在圣诞和新年来临之际，祝福你平安、快乐、幸福！</p>
 
@@ -51,7 +54,6 @@
 	
 <div style="text-align: center; background-image:url('/img/1120.jpg');">	
    	
-      
     <canvas id="c" height="356" width="446">
     <script>
         var b = document.body;
@@ -65,14 +67,14 @@
         U=15;
         T=M.sin;
         E=M.sqrt;
-        for(O=k=0;x=z=j=i=k<600;)
+        for(O=k=0;x=z=j=i=k<300;)
         with(M[k]=k?c.cloneNode(0):c)
         {
-            width=height=k?100:W=700;
+            width=height=k?100:W=900;
             with(getContext('2d'))
             if(k>10|!k)
             for(
-            font='95px Impact',
+            font='122px Impact',
             V='rgba(';I=i*U,fillStyle=k?k==13?V+'245, 245, 245)':
             V+(147+I)+','+(k%2?128+I:0)+','+I+',.5)':'#cca',i<7;
             )
@@ -81,7 +83,7 @@
             arc(
             U-i/3,
             24-i/2,
-            k==13?4-(i++)/2:8-i++,
+            k==13?3-(i++)/2:6-i++,
             0,
             M.PI*2,0.1
             )
@@ -103,11 +105,11 @@
             lineTo(U+x*U,U+y*U),
             stroke();
             for(
-            y=H=k+E(k++)*23,
+            y=H=k+E(k++)*70,
             R=Q()*W;
             P=3.5,j<H;
             )
-            J[O++]=[x+=T(R)*P+Q()*6-3,y+=Q()*U-7,z+=T(R-11)*P+Q()*6-3,j/H*20+((j+=U)>H&Q()>.8?Q(P=9)*4:0)>>1]
+            J[O++]=[x+=T(R)*P+Q()*6-3,y+=Q()*U-7,z+=T(R-11)*P+Q()*6-3,j/H*20+((j+=U)>H&Q()>.7?Q(P=9)*4:0)>>1]
         }
         setInterval(function G(m,l)
         {
@@ -122,18 +124,18 @@
             L=J[i++];
             a.drawImage
             (
-            M[L[3]+1],350+L[0]*A+L[2]*T(D)>>0,L[1]>>1)    )
+            M[L[3]+1],450+L[0]*A+L[2]*T(D)>>0,L[1]>>1)    )
             {
                 if(i==2e3)
                 a.fillText
                 (
                 'Happy Christmas!',
-                U,700);
+                U,870);
                 if(!(i%9))
                 a.drawImage
                 (
                 M[13],
-                ((157*(i*i)+T(D*12+i*i)*15)%W)>>0,
+                ((157*(i*i)+T(D*12+i*i)*50)%W)>>0,
                 ((113*i+(D*i)/60)%(750+i/700))>>0
                 );
             }
@@ -141,6 +143,10 @@
         },1)
     </script>
 </div>
+
+
+
+
 
 
 
